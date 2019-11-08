@@ -162,7 +162,7 @@
 						<div class="inner">
 							<h2 class="major">Hubungi kami</h2>
 							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="https://script.google.com/macros/s/AKfycbxFu05Ulhhud1TLyiLRwEr-_u9cnK_3McxHO2TwTQ/exec" id="gform" data-email="from_email@example.com">
+							<form  onsubmit="myFunc()" method="post" action="https://script.google.com/macros/s/AKfycbxFu05Ulhhud1TLyiLRwEr-_u9cnK_3McxHO2TwTQ/exec" class="gform" data-email="from_email@example.com">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -179,20 +179,27 @@
 								</div>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
+									<!-- <button>Kirim Email</button> -->
 								</ul>
 								<!-- Customise the Thankyou Message People See when they submit the form: -->
-    						<div style="display:none;" id="thankyou_message">
-	                 			<h2>
-	                 				<em>Thanks</em> for contacting us!
-	                 				We will get back to you soon!
-	                 			</h2>
-	                 		</div>
+								<div class="thankyou_message" style="display:none;">
+										<h2><em>Thanks</em> for contacting us!
+										  We will get back to you soon!</h2>
+								</div>
 	
-	
-		
+								
+							 <script>
+									function myFunc() {
+									  alert("Email telah terkirim");
+										location.reload();
+									}
+									</script>
+									
 	
 	
 							</form>
+							<script data-cfasync="false" type="text/javascript"
+								src="assets/js/form-submission-handler.js"></script>
 							<ul class="contact">
 								<li class="icon solid fa-home">
 									Untitled Inc<br />
