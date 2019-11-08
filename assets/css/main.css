@@ -3284,7 +3284,7 @@ input, select, textarea {
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
 			background: #4c5c96;
-			/* background-image: url('../../images/logo.jpg'); */
+			background-image: url('../../images/logo.png');
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
