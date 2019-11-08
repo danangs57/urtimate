@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	</head>
 	<body class="is-preload">
 			<a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
@@ -54,11 +55,11 @@
 				<!-- Wrapper -->
 					<section id="wrapper">
 						<!-- One -->
-						<section id="one" class="wrapper spotlight style1">
+						<section id="one" class="wrapper spotlight style1" >
 							<h1 class="major" style="text-align: center; font-size:25px;">Layanan Kami</h1>
-								<div class="inner">
+								<div class="inner" data-aos="fade-left">
 									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-									<div class="content">
+									<div class="content" >
 										<h2 class="major">IT Solution</h2>
 										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
 										<a href="#" class="special">Learn more</a>
@@ -68,9 +69,9 @@
 
 						<!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
-								<div class="inner">
+								<div class="inner" data-aos="fade-right">
 									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-									<div class="content">
+									<div class="content" >
 										<h2 class="major">Digital Marketing</h2>
 										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
 										<a href="#" class="special">Learn more</a>
@@ -80,7 +81,7 @@
 
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
-								<div class="inner">
+								<div class="inner" data-aos="fade-left">
 									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Mobile Application</h2>
@@ -90,7 +91,7 @@
 								</div>
 							</section>
 							<section id="two" class="wrapper alt spotlight style2">
-									<div class="inner">
+									<div class="inner" data-aos="fade-right">
 										<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
 										<div class="content">
 											<h2 class="major">Digital Marketing</h2>
@@ -101,7 +102,7 @@
 								</section>
 								
 								<section id="three" class="wrapper spotlight style3">
-										<div class="inner">
+										<div class="inner" data-aos="fade-left">
 											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
 											<div class="content">
 												<h2 class="major">Mobile Application</h2>
@@ -113,7 +114,7 @@
 
 						<!-- Four -->
 							<section id="four" class="wrapper alt style1">
-								<div class="inner">
+								<div class="inner" data-aos="zoom-in">
 									<h2 style="text-align: center;" class="major">Our Team</h2>
 									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
 									<section class="features">
@@ -161,24 +162,36 @@
 						<div class="inner">
 							<h2 class="major">Hubungi kami</h2>
 							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
+							<form method="post" action="https://script.google.com/macros/s/AKfycbxFu05Ulhhud1TLyiLRwEr-_u9cnK_3McxHO2TwTQ/exec" id="gform" data-email="from_email@example.com">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name"  required/>
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
+										<input type="email" name="email" id="email" required/>
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+										<textarea name="message" id="message" rows="4" required></textarea>
 									</div>
 								</div>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
+								<!-- Customise the Thankyou Message People See when they submit the form: -->
+    						<div style="display:none;" id="thankyou_message">
+	                 			<h2>
+	                 				<em>Thanks</em> for contacting us!
+	                 				We will get back to you soon!
+	                 			</h2>
+	                 		</div>
+	
+	
+		
+	
+	
 							</form>
 							<ul class="contact">
 								<li class="icon solid fa-home">
@@ -254,7 +267,7 @@
 
 		<!-- Scripts -->
 		<!--Start of Tawk.to Script-->
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 		(function(){
 	     	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -264,14 +277,31 @@
 		    s1.setAttribute('crossorigin','*');
 		    s0.parentNode.insertBefore(s1,s0);
 		})();
-	</script>
-	<!--End of Tawk.to Script-->
+	</script> -->
+
+	<!-- zoho -->
+	<script type="text/javascript">
+		var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+		{widgetcode:"fd84e520e15062d5198a232d44cc899a0c619cbe2f447daf52e8af0715e55840", values:{},ready:function(){}};
+		var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+		s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+		</script>
+	<!--End of zoho.to Script-->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<!-- AOS -->
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script>
+			  AOS.init({
+				  offset:300,
+				  durration:500
+			  });
+			</script>
 
 	</body>
 </html>
