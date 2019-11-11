@@ -3495,6 +3495,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
+				background-image: linear-gradient(to top, rgba(31, 31, 68, 0.8), rgba(137, 191, 252, 0.548)), url("../../images/bg.jpg");
+
 				padding: 5em 2em 4.25em 2em ;
 				margin-bottom: -2.5em;
 			}
