@@ -3283,8 +3283,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
-			background-image: url('../../images/logo.png');
+			background: #3751b6;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3613,6 +3612,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		#wrapper > header {
+			background-image: linear-gradient(to top, rgba(31, 31, 68, 0.8), rgba(137, 191, 252, 0.548)), url("../../images/bg.jpg");
 			padding: 6.5em 2em 3em 2em ;
 			background-size: auto,
  125%;
