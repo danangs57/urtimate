@@ -3500,8 +3500,10 @@ input, select, textarea {
 				margin-bottom: -2.5em;
 			}
 
-				#banner .logo {
+				#banner .logo img{
 					margin: 0 0 1em 0;
+					max-width: 300px;
+					max-height: 70px;
 				}
 
 					#banner .logo .icon {
