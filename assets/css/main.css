@@ -3119,9 +3119,10 @@ input, select, textarea {
 		}
 
 			#header nav a {
-				border: 0;
+				border: 3px;
 				display: inline-block;
 				padding: 0 1em;
+				margin-right: 9px;
 			}
 
 				#header nav a:before {
@@ -3129,7 +3130,7 @@ input, select, textarea {
 					margin-left: 0.75em;
 				}
 
-				#header nav a[href="#menu"] {
+				#header nav a {
 					text-decoration: none;
 					-moz-transition: background-color 0.2s ease-in-out;
 					-webkit-transition: background-color 0.2s ease-in-out;
@@ -3140,7 +3141,7 @@ input, select, textarea {
 					padding: 0 1.35em;
 				}
 
-					#header nav a[href="#menu"]:before {
+					#header nav a:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
 						display: inline-block;
@@ -3194,13 +3195,13 @@ input, select, textarea {
 						line-height: inherit;
 					}
 
-						#header nav a[href="#menu"] {
+						#header nav a {
 							box-shadow: none;
 							padding: 0 1em;
 							border-radius: 0;
 						}
 
-							#header nav a[href="#menu"]:hover, #header nav a[href="#menu"]:active {
+							#header nav a:hover, #header nav a:active {
 								background-color: inherit;
 							}
 
@@ -3208,14 +3209,15 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#header nav a[href="#menu"] {
+			#header nav a {
 				width: 4em;
 				white-space: nowrap;
 				text-indent: 4em;
 				position: relative;
+				margin-left: 55px;
 			}
 
-				#header nav a[href="#menu"]:before {
+				#header nav a:before {
 					width: inherit;
 					position: absolute;
 					top: 0;
@@ -3502,8 +3504,8 @@ input, select, textarea {
 
 				#banner .logo img{
 					margin: 1em 0 0 0;
-				width: 400px;
-				height: 130px;
+				width: 450px;
+				height: 160px;
 				}
 
 					#banner .logo .icon {
