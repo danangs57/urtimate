@@ -3188,6 +3188,7 @@ input, select, textarea {
 					right: 0;
 					height: inherit;
 					line-height: inherit;
+					margin-top: 5px;
 				}
 
 					#header nav a {
