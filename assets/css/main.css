@@ -3281,13 +3281,13 @@ input, select, textarea {
 			-webkit-transform: translateY(0.5em);
 			-ms-transform: translateY(0.5em);
 			transform: translateY(0.5em);
-			-moz-transition: opacity 0.35s ease, -moz-transform 0.35s ease;
-			-webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
-			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
-			transition: opacity 0.35s ease, transform 0.35s ease;
+			/* -moz-transition: opacity 0.35s ease, -moz-transform 0.35s ease; */
+			/* -webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease; */
+			/* -ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease; */
+			/* transition: opacity 0.35s ease, transform 0.35s ease; */
 			-webkit-overflow-scrolling: touch;
-			background-image: url("../../images/digitalanal.png");
-			background: #3751b6 ;
+			background: #3751b6;
+			background-image: url("../../images/pic02.jpg");
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
