@@ -56,7 +56,7 @@
 
 			window.setTimeout(function() {
 				$menu._locked = false;
-			}, 350);
+			}, 10);
 
 			return true;
 
@@ -120,7 +120,7 @@
 					// Redirect.
 						window.setTimeout(function() {
 							window.location.href = href;
-						}, 350);
+						}, 10);
 
 				});
 

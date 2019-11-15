@@ -3188,7 +3188,6 @@ input, select, textarea {
 					right: 0;
 					height: inherit;
 					line-height: inherit;
-					margin-top: 5px;
 				}
 
 					#header nav a {
@@ -3255,10 +3254,10 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		-moz-transition: opacity 0.35s ease, visibility 0.35s;
-		-webkit-transition: opacity 0.35s ease, visibility 0.35s;
-		-ms-transition: opacity 0.35s ease, visibility 0.35s;
-		transition: opacity 0.35s ease, visibility 0.35s;
+		/* -moz-transition: opacity 0.35s ease, visibility 0.35s; */
+		/* -webkit-transition: opacity 0.35s ease, visibility 0.35s; */
+		/* -ms-transition: opacity 0.35s ease, visibility 0.35s; */
+		/* transition: opacity 0.35s ease, visibility 0.35s; */
 		-moz-user-select: none;
 		-webkit-user-select: none;
 		-ms-user-select: none;
@@ -3287,7 +3286,8 @@ input, select, textarea {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #3751b6;
+			background-image: url("../../images/digitalanal.png");
+			background: #3751b6 ;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
