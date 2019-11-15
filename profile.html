@@ -29,7 +29,7 @@
 
 		<!-- Header -->
 		<header id="header">
-			<h1><a href="index.html"><img style="width: 30px; height: 30px;" src="images/logo.png" alt="">
+			<h1><a href="index.html"><img style="width: 30px; height: 30px;" src="images/favicon.png" alt="">
 					Urtimate</a></h1>
 			<nav>
 					<a style="box-shadow: unset; font-size:smaller;" href="services.html">Services</a>
@@ -150,51 +150,66 @@
 		</section>
 
 		<!-- Footer -->
-		<!-- <section id="footer">
+		<section id="footer" >
 			<div class="inner">
-				<h2 id="contactus" class="major">HUBUNGI KAMI</h2>
-				<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce
-					tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-					tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-				<form method="post" action="#">
+				<h2 id="contactus" class="major">Hubungi kami</h2>
+				<p>Bila Anda memerlukan informasi tentang jasa pelayanan kami,silahkan meng-hubungi kami dengan mengisi Form di bawah ini atau menghubungi media yang telah kami sediakan,Petugas kami akan segera merespon dengan cepat</p>
+				<form  onsubmit="myFunc()" method="post" action="https://script.google.com/macros/s/AKfycbxXYyNsEIhRyXD9ZcE8N-iPt3CZ27Zf0lPO8fTmTFzXB1c8IewP/exec" class="gform" data-email="from_email@example.com">
 					<div class="fields">
 						<div class="field">
 							<label for="name">Name</label>
-							<input type="text" name="name" id="name" />
+							<input type="text" name="name" id="name"  required/>
 						</div>
 						<div class="field">
 							<label for="email">Email</label>
-							<input type="email" name="email" id="email" />
+							<input type="email" name="email" id="email" required/>
 						</div>
 						<div class="field">
 							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="4"></textarea>
+							<textarea name="message" id="message" rows="4" required></textarea>
 						</div>
 					</div>
 					<ul class="actions">
 						<li><input type="submit" value="Send Message" /></li>
+				
 					</ul>
+					
+
+					
+				 <script>
+						function myFunc() {
+						  alert("Email telah terkirim,Kami akan membalas secepatnya,Terima Kasih");	
+						  setTimeout(location.reload.bind(location), 1500);
+						  
+						}
+						</script>
+						
+
+
 				</form>
+				<script data-cfasync="false" type="text/javascript"
+					src="assets/js/form-submission-handler.js"></script>
 				<ul class="contact">
 					<li class="icon solid fa-home">
-						Untitled Inc<br />
-						1234 Somewhere Road Suite #2894<br />
-						Nashville, TN 00000-0000
+						Jakarta Timur<br />
+						1234 Duren Sawit #2894<br />
+						Buaran, TN 00000-0000
 					</li>
-					<li class="icon solid fa-phone">(000) 000-0000</li>
-					<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-					<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-					<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-					<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+					<li class="icon solid fa-phone">(+62) 812-9044-9937</li>
+					<li class="icon solid fa-envelope"><a href="MAILTO:info.urtimate@gmail.com">info@urtimate.com</a></li>
+					<li class="icon brands fa-twitter"><a href="https://twitter.com/ulirotio">@ulirotio</a></li>
+					<li class="icon brands fa-facebook-f"><a href="https://www.facebook.com/ulirotiomahakarya.teknologi.1">facebook.com/ulirotiomahakarya.teknologi.1</a></li>
+					<li class="icon brands fa-instagram"><a href="https://www.instagram.com/info.urtimate/">@info.urtimate</a></li>
 				</ul>
-				<ul class="copyright">
-					<li>&copy;All rights reserved.</li>
-					<li>Design:Urtimate <a href="#"></a></li>
-				</ul>
+				
+				
 			</div>
-		</section> -->
+
+			
+		<section id="footer">
 
 	</div>
+
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
