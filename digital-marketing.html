@@ -188,10 +188,15 @@
 	<script>
 		function myFunc() {
 			history.back();
+			$(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});
 
 		}
 	</script>
-
+<div class="loader-wrapper">
+	<span class="loader"><span class="loader-inner"></span></span>
+</div>
 </body>
 
 </html>
